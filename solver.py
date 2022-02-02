@@ -82,8 +82,9 @@ def solveBoard(board):
 
 def main():
     board = inputBoard()
-    printBoard(board)
     print("\nSolving...")
     solveBoard(board)
-    print("\n---------------------\n")
+    print("---------------------")
     printBoard(board)
+
+main()

@@ -29,6 +29,10 @@ Would be input as:
 
 ## Algorithm
 
-This solver uses a simple algorithm known as "Backtracking".  
-This is a brute force approach that tests a value, and moves on.  
-Once the value is no longer valid, it backtracks and tries new values until the board is solved.
+This solver uses a simple algorithm known as "Backtracking". The steps are as follows:
+
+1. Find an unfilled square
+2. Try digits 1-9 in that square
+3. Check if that digit is valid
+4. If the digit is valid, move on to the next square  
+   Else, reset the square and 'backtrack'
