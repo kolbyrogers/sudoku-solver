@@ -2,7 +2,7 @@
 
 ## Input
 
-This program takes a sudoku board as all 9 rows packed together.
+This program takes a sudoku board as all 9 rows packed together.  
 For example, a sudoku board that looks like this:
 
 ```
@@ -21,14 +21,14 @@ For example, a sudoku board that looks like this:
 +-----------------------+
 ```
 
-Would be input as the string:
+Would be input as:
 
 ```
-"..7......6.4.....3....54..2....4....9.......5385..2........378.49.71....1....89.."
+..7......6.4.....3....54..2....4....9.......5385..2........378.49.71....1....89..
 ```
 
 ## Algorithm
 
-This solver uses a simple algorithm known as "Backtracking".
-This is a brute force approach that tests a value, and moves on.
-Once the value is no longer valid, it backtracks and tries a new value.
+This solver uses a simple algorithm known as "Backtracking".  
+This is a brute force approach that tests a value, and moves on.  
+Once the value is no longer valid, it backtracks and tries new values until the board is solved.
